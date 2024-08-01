@@ -21,7 +21,7 @@ button {
   position: absolute;
   left: 0%;
   font-size: 2rem;
-  animation: float 3s ease-in-out infinite;
+  animation: float 3s ease-in-out;
   user-select: none;
 }
 
