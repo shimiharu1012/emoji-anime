@@ -17,9 +17,9 @@ function generateEmojis() {
     //　絵文字のをチャット画面のコンテナ要素に追加する
     chatContainer.appendChild(emoji);
 
-    // 3.6秒後に絵文字を削除する
-    setTimeout(() => {
+    // アニメーションが終了したら絵文字を削除する
+    emoji.addEventListener("animationend", () => {
       emoji.remove();
-    }, 3500);
+    });
   }
 }
