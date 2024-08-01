@@ -14,8 +14,7 @@ function generateEmojis() {
     emoji.style.left = `${Math.random() * 100}%`;
     // 絵文字のアニメーションの遅延をランダムに設定
     emoji.style.animationDelay = `${Math.random() * 2}s`;
-    //　絵文字のをチャット画面のコンテナ要素に追加し絵文字を表示可能にする
-    emoji.style.visibility = "visible";
+    //　絵文字のをチャット画面のコンテナ要素に追加する
     chatContainer.appendChild(emoji);
 
     // 3.6秒後に絵文字を削除する
