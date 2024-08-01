@@ -11,7 +11,7 @@ function generateEmojis() {
     // div要素にemojiクラスを追加する
     emoji.classList.add("emoji");
     // 絵文字の位置をランダムに設定する
-    emoji.style.left = Math.random() * 100 + "vw";
+    emoji.style.left = `${Math.random() * 100}%`;
     // 絵文字のアニメーションの遅延をランダムに設定
     emoji.style.animationDelay = `${Math.random() * 2}s`;
     //　絵文字のをチャット画面のコンテナ要素に追加し絵文字を表示可能にする
